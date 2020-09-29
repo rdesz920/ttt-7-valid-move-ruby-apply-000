@@ -8,7 +8,7 @@ def valid_move? (board,index)
   end
 
   def on_the_board?(number)
-    if number.between(0,8) == true
+    if number.between?(0,8) == true
       return true
     else
       return false
